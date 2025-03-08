@@ -1,0 +1,13 @@
+.header {
+  background-color: #5a8af4;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  height: 3rem;
+}

@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #5a8af4;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  width: 20rem;
+  height: 12rem;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+button {
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  background-color: #5a8af4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3f78f3;
+}
+
+@media only screen and (max-width: 661px) {
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    margin: 2rem;
+    padding: 2rem;
+    width: 15rem;
+    height: 12rem;
+  }
+}
