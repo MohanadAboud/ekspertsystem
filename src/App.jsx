@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Infocard />} />
+        <Route path="*" element={<Infocard />} />
         <Route path="/hvad-skal-jeg-spille" element={<Forward />} />
         <Route path="/passer-spillet-dig" element={<Backward />} />
         <Route path="/endpage" element={<Endpage />} />
