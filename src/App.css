@@ -9,6 +9,12 @@ h1 {
   margin: 4rem;
 }
 
+p {
+  text-align: center;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
 .forward_container {
   display: flex;
   justify-content: center;
@@ -26,4 +32,29 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  background-color: #5a8af4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3f78f3;
+}
+
+.anbefaling1-container {
+  text-align: center;
+}
+
+.fest-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 800px;
+  height: 60%;
 }

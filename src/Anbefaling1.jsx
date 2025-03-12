@@ -1,11 +1,14 @@
 import React from 'react'
+import fest from './assets/fest.webp'
 
-function anbefaling1() {
+function Anbefaling1() {
   return (
-    <div>
-      <h1> Vi anbefaler uno </h1>
+    <div className="anbefaling1-container">
+      <h1>Spillet kan helt klart anbefales!</h1>
+      <p>Vi håber, at du og dine venner nyder hvert øjeblik med spilet. Rigtig god fornøjelse!</p>
+      <img src={fest} alt="fest" className="fest-image" />
     </div>
   )
 }
 
-export default anbefaling1
+export default Anbefaling1

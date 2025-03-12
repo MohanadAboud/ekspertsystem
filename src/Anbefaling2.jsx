@@ -1,11 +1,14 @@
 import React from 'react'
+import sad from './assets/sad.webp'
 
-function anbefaling2() {
+function Anbefaling2() {
   return (
-    <div>
-      <h1> Vi anbefaler The Crew: The Quest for Planet Nines </h1>
+    <div className="anbefaling1-container">
+      <h1>Spillet kan ikke anbefales </h1>
+      <p>Efter vores vurdering lever UNO ikke helt op til forventningerne. Prøv de andre anbefalede spil.</p>
+      <img src={sad} alt="fest" className="fest-image" />
     </div>
   )
 }
 
-export default anbefaling2
+export default Anbefaling2

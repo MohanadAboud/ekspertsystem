@@ -16,25 +16,18 @@
   transition: transform 0.3s ease;
   cursor: pointer;
   width: 20rem;
-  height: 12rem;
+  height: 18rem;
 }
 
 .card:hover {
   transform: scale(1.01);
 }
 
-button {
-  padding: 1rem 2rem;
-  margin-top: 2rem;
-  background-color: #5a8af4;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #3f78f3;
+.card-image {
+  width: 50%;
+  height: 55%;
+  display: block;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 661px) {
